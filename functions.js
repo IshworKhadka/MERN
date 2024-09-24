@@ -1,7 +1,11 @@
 
 
 // --------------Traditional way---------------------
-
+/*1. Function Declaration
+    - A function declaration defines a named function using the function keyword. 
+    - It is fully hoisted, meaning the function can be called before it is defined.
+    - Use Case: Typically used for declaring standard functions. 
+*/
 function sum(){
     let sum = 10 + 20
     console.log(sum)  
@@ -21,6 +25,12 @@ dynamicSum(20, 20)  //---2
 //Hoisting - Use before defining
 
 // --------------Second way---------------------
+/*2. Function Expression
+    - A function expression defines a function inside an expression. 
+    - It can be named or anonymous
+    - It is not hoisted, meaning you cannot call the function before it is assigned. 
+    - Use Case: Useful for function expressions, callbacks, IIFEs (Immediately-Invoked Function Expressions), etc.*/
+
 //Prefer const over let, var
 let secondSum = function(n1, n2 = 5){
     console.log(n1 + n2)
