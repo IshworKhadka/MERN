@@ -47,6 +47,15 @@ console.log("Adding using arrow function: " + sumArrow(5))     //----4
 // const sum = n1 => {}
 // const sum = (n1 + n2) => n1 + n2
 
+const sumTest = (n1, n2) => n1 + n2
+
+console.log("test " + sumTest(3,3))
+
+function substractionTest(num1, num2){
+     return num1 - num2
+}
+
+console.log("test substraction " + substractionTest(10,3))
 
 // -------SUBSTRACTION 
 
