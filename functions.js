@@ -47,7 +47,11 @@ console.log("Adding using arrow function: " + sumArrow(5))     //----4
 // const sum = n1 => {}
 // const sum = (n1 + n2) => n1 + n2
 
-const sumTest = (n1, n2) => n1 + n2
+const sumTest = (n1, n2) => n1 + n2  //In single line body statement, no need for braches and return keyword
+
+//For single parmeter in arrow functions, no need for braces
+const singleFunctn = n1 => n1 * 2
+console.log('Single Param ' + singleFunctn(7))
 
 console.log("test " + sumTest(3,3))
 
@@ -78,6 +82,9 @@ console.log("Multiplication using Method 2: " + multiply(2 , 5))  //-----6
 const division = (num1, num2) => console.log("Division using Arrow function: " + num2 / num1)
 
 division(7, 14)   //-----7
+
+
+//NaN - Numberical operation on a Non-numerical / Empty variables
 
 
 
