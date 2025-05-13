@@ -1,4 +1,5 @@
 
+//Lecture Date: 30th Sep 2024
 let person = {
     'full name': 'Ishwor Khadka',    //Keys with muti word should be within quotes,
     age: 34,                            //Single word keys can be with/without quotes
